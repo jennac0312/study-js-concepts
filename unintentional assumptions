@@ -13,7 +13,7 @@ so here i am leaving a list of simple questions that i will clarify if i can lol
 
 4. what does return mean? when we talk about methods and properties 'returning' something.
 
-5. why file names should be camelCase also. (and understanding when/why they sometimes will be uppercase)
+5. why file names should be camelCase also. (and understanding when/why they sometimes will start with a Captial)
 
 6. weird things about JS. like counting from 0... not just in arrays, also in strings and i think everywhere
 
