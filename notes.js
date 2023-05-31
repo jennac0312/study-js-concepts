@@ -135,7 +135,7 @@ ________________________________________________________________________________
 
 DATA TYPES
 
-    - we know how to create variables now with declaration and assingment. but, what values can we assign to these variables?
+    - we know how to create variables now with declaration and assignment. but, what values can we assign to these variables?
 
     - thats where DATA TYPES come in
     - we understand that the value stored in variables is considered DATA, right? so now lets break down the different kinds of data
@@ -276,6 +276,7 @@ handy for conditionals
 ____________________________________________________________________________________________________________________________________________________________________________________________
 
 ARRAY []
+    * arrays are toasters (if you get it LOL if not watch Leon Noel)
     - data type
     - when you see [] brackets, think ARRAY
     - separate each item with , comma
@@ -396,7 +397,7 @@ ARRAY []
     [] think ARRAY
     arrays count from 0
     can hold every data type (including other arrays)
-    special because of many many built in properties and methods
+    special because of many many built in properties and methods to manipulate data
 *******************************************************************
 
 ____________________________________________________________________________________________________________________________________________________________________________________________

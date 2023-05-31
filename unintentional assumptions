@@ -1,0 +1,20 @@
+things i unintentionally and wrongfully assume is common knowledge.. that i don't realize until i type and think ... "wait, that's not something people just know"
+
+
+so here i am leaving a list of simple questions that i will clarify if i can lol (because these are also things that you might think you know until you actually have to explain and then suddenly you fumble over your words)
+
+
+
+1. variables can only be declared once
+
+2. what is console.log() ?
+
+3. keywords... and that they are ignored (not seen as keywords) when used in strings
+
+4. what does return mean? when we talk about methods and properties 'returning' something.
+
+5. why file names should be camelCase also. (and understanding when/why they sometimes will be uppercase)
+
+6. weird things about JS. like counting from 0... not just in arrays, also in strings and i think everywhere
+
+7. 
