@@ -1,4 +1,8 @@
 /*
+
+UPDATE: uhhhhhh i just realized that these ntoes feel overwhelming. i didn't want them to but uhh lol
+        these concepts are easier discussed than read tbh. so let's actually have a coversation about it
+        (lets have a group study session)
 __________________________________________________________________________________________________________
 COVERS: 
     1. VARIABLES
@@ -35,7 +39,8 @@ nothing more, nothing less.
 
 
 SOME IMPORTANT TERMS TO KNOW
-    1. Keyword - in JS syntax, there are reserved words that have a specific purpose and cannot be used outside of said purpose. you will learn these as we go further into js.
+    1. Keyword - in JS syntax, there are reserved words that have a specific purpose 
+        and cannot be used outside of said purpose. you will learn these as we go further into js.
 
 
 
@@ -63,7 +68,10 @@ A FEW THINGS TO KNOW ABOUT JS
 
 Let's start at where I think is the beginning
 
-understand that javascript is a high level language. this means that it is written in terms that humans can read and understand. the computer doesn't actually underatand javascript. fortunately, behind the scenes, js is broken down into binary code that the computer understands. (don't worry too much about this, but if you do care to know... go listen to leon noel lol)
+understand that javascript is a high level language. this means that it is written in terms that humans can read and understand. 
+    the computer doesn't actually underatand javascript. 
+    fortunately, behind the scenes, js is broken down into binary code that the computer understands. 
+    (don't worry too much about this, but if you do care to know... go listen to leon noel lol)
 ____________________________________________________________________________________________________________________________________________________________________________________________
 
 JAVASCRIPT ES6
@@ -79,7 +87,9 @@ VARIABLES
     - in simplest terms, what do variables do? 
         - variables STORE DATA!!!
 
-    - when we create a variable we are creating a space in the computer's memory. (rememeber we had to check the specs of our computer to make sure we had 50+ gb of storage for this class? that's why. js takes up space!!)
+    - when we create a variable we are creating a space in the computer's memory. 
+        (rememeber we had to check the specs of our computer to make sure we had 50+ gb
+            of storage for this class? that's why. js takes up space!!)
 
 
     COMMON PRACTICES TO KEEP IN MIND
@@ -103,7 +113,8 @@ DECLARATION/ INITIATION (let, const)
 
         2. let (use this when a variable is going to or might change. i say when i doubt, use this)
 
-        3. const (short for constant. only use this when you do not want your variable to ever change (code term is "reassign") use this when you do not want your variable to be reassigned)
+        3. const (short for constant. only use this when you do not want your variable to ever change 
+            (code term is "reassign") use this when you do not want your variable to be reassigned)
 
 
         example declarations:
@@ -178,8 +189,10 @@ STRING ( '', "", `` )
         let myName = 'jenna'
         let username = 'student123'
 
-        ** to drill into your head the data type practice reading it aloud as "let my name equal STRING jenna". "let username equal STRING student123"
-        ** ^^ this will help in the weird cases where we assign a number as a string. (meaning we put a number in quotes... that's literally it)
+        ** to drill into your head the data type practice reading it aloud as 
+            "let my name equal STRING jenna". "let username equal STRING student123"
+        ** ^^ this will help in the weird cases where we assign a number as a string. 
+            (meaning we put a number in quotes... that's literally it)
 
         let age = '25'
         ** MAKE SURE to read this as "let age equal STRING 25" ..it'll help you out later i promise
@@ -201,11 +214,15 @@ STRING ( '', "", `` )
                     * quotes mark the beginning and end of a string, therefore if the quote INSIDE matches the STARTING quote, it'll cut your string variable short
                     
                     don't take my word for it, test it out yourself
-                        - open a new js file called testing.js or something. paste statement that declares and assigns mcdreamyQuote into the new file. 
-                            ** notice (unless you changed your settings, that the value(what's written after the assignment operator (=)) is in pinkish letters. stirngs are in pink in vs code)
+                        - open a new js file called testing.js or something. 
+                            paste statement that declares and assigns mcdreamyQuote into the new file. 
+                        ** notice (unless you changed your settings, that the value(what's written after the assignment operator (=)) is in pinkish letters. strings are in pink in vs code)
                             - now, erase the double quote at the beginning and end of the string. replace both with a sinlge quote '.
-                                - do you notice the red squiggly line? thankfully js is like microsoft word and google docs and doesn't let you get away with  errors.
-                                - do you also notice how the pinkish letters are only on 'it'? thats because since the string OPENED with a single quote, it will END on the next single quote it sees. why? bc of js syntax. the way the language works. 
+                                - do you notice the red squiggly line? 
+                                    thankfully js is like microsoft word and google docs and doesn't let you get away with  errors.
+                                - do you also notice how the pinkish letters are only on 'it'? 
+                                    thats because since the string OPENED with a single quote, 
+                                    it will END on the next single quote it sees. why? bc of js syntax. the way the language works. 
 
             2. how to never run into problems with cutting a string short by mistake?
                 - well, i can't say never honeslty, but try using ``(backticks) more often, or altogether even. 
@@ -218,7 +235,8 @@ STRING ( '', "", `` )
         - whats the hype? 
             - template literals allow us to write strings while also allowing us to escape the string temporarily...
             - ummm what does that even mean? 
-                - well, when you're writing a string with the basic quotes (single or double), js will think of everything inside the quotes as part of the quote.
+                - well, when you're writing a string with the basic quotes (single or double), 
+                    js will think of everything inside the quotes as part of the quote.
 
                 okay that didnt help much did it? lol
 
@@ -227,7 +245,9 @@ STRING ( '', "", `` )
                     let name = 'jenna'
                     console.log('hi, my name is ' + name + '. How are you today?')
 
-                * notice how i have to START the quote(first single quote), and right before i reach the variable i am referencing, i EXIT the string (via second single quote), CONCATENATE(more on this in a minute) the variable i need, and re-enter(third single quote) and finish the string (fourth and final single quote.)
+                * notice how i have to START the quote(first single quote), and right before i reach the variable i am referencing,
+                    i EXIT the string (via second single quote), CONCATENATE(more on this in a minute) the variable i need,
+                    and re-enter(third single quote) and finish the string (fourth and final single quote.)
                     * yes the space between 'is ' and the closing quote is intentional (more on that when we get into concatenation) 
                     
 
@@ -236,7 +256,8 @@ STRING ( '', "", `` )
                     let name = 'jenna'
                     console.log(`hi, my name is ${name}. How are you today?`)
                 
-                * ${} tells the computer "hey, the word(s) inside me are actually variables. grab and replace me with it's value please" and that's exaclty what the computer does. it finds the place in memory called 'name' and puts the variable's value in it's place
+                * ${} tells the computer "hey, the word(s) inside me are actually variables. grab and replace me with it's value please" 
+                    and that's exaclty what the computer does. it finds the place in memory called 'name' and puts the variable's value in it's place
 
                     **** dont take my word for it, try it out yourself.
 
@@ -275,7 +296,10 @@ BOOLEAN (true, false)
             let canDance = false
             let isGoodAtMath = true
 
-        ** you can read these as "let canSing equal BOOLEAN false". "let canDance equal BOOLEAN false". "let isGoodAtMath equal BOOLEAN true" but that isn't really necessary because true/false are both text and the only other variable type for text is STRING and you know these are not STRINGs because ??? there is no quotes!
+        ** you can read these as "let canSing equal BOOLEAN false". 
+            "let canDance equal BOOLEAN false". 
+            "let isGoodAtMath equal BOOLEAN true" but that isn't really necessary because true/false are both text
+            and the only other variable type for text is STRING and you know these are not STRINGs because ??? there is no quotes!
         
         careful not to confuse these with something like:
 
@@ -342,7 +366,8 @@ ARRAY []
 
         what if our array was 1,000 variables long? how would we access the last value in that case?
             - thats where some array properties come into play
-                ** google 'array properties mdn' (tbh i dont think there is that many.. however, there are tons and tons of methods... yes properties and methods are different)
+                ** google 'array properties mdn' (tbh i dont think there is that many.. 
+                    however, there are tons and tons of methods... yes properties and methods are different)
 
                 most commonly used property (in my opinion)
                     - the length property
@@ -380,9 +405,11 @@ ARRAY []
                     5. [everyAnimalInTheWorld.length - 1]
                         - treat this like a math problem and read left to right
                         - everyAnimalInTheWorld.length ...okay i know this returns a number... but what number? 
-                        - the actual length of the array!! it's very litral! this property counts how many total items are stored inside the array. (in our case 4... but imagine we dont know this)
+                        - the actual length of the array!! it's very litral! 
+                            this property counts how many total items are stored inside the array. (in our case 4... but imagine we dont know this)
                     6. okay so now inside our brackets we have [ 4 - 1 ] ... treat it like math. 4 - 1 evaluates to 3
-                        ** why are we subtracting 1 though? remember arrays use zero based indexing. so we have to account for the length property counting from 1. this is done by subtracting 1
+                        ** why are we subtracting 1 though? remember arrays use zero based indexing. 
+                            so we have to account for the length property counting from 1. this is done by subtracting 1
                     7. so what we really have here is :
                         let lastAnimal = everyAnimalInTheWorld[3]
                     
@@ -436,8 +463,13 @@ OBJECTS {}
                 currentGrades: [98, 98, 100]
             }
 
-        ** this is how i personally would read this object " let student equal OBJECT school is STRING perscholas, course is STRING software engineering, isTeacher is BOOLEAN false, isLearning is BOOLEAN true, currentGrades is ARRAY NUMBER 98, NUMBER 98, NUMBER 100"
-        so this is a bit tricky because the only thing declared in memory is a student OBJECT. but within the student object we have properties that also hold value. but these are only accessible THROUGH the student object
+        ** this is how i personally would read this object 
+            " let student equal OBJECT school is STRING perscholas, 
+            course is STRING software engineering, isTeacher is BOOLEAN false,
+            isLearning is BOOLEAN true, currentGrades is ARRAY NUMBER 98, NUMBER 98, NUMBER 100"
+        so this is a bit tricky because the only thing declared in memory is a student OBJECT. 
+            but within the student object we have properties that also hold value. 
+            but these are only accessible THROUGH the student object
 
         - what does that mean?
             - to access the value of school we cannot simply console.log(school)
@@ -456,8 +488,11 @@ OBJECTS {}
 
             2. backet notation
                 console.log(student['school'])
-                    - truthfully, i dont know how i would read this. i do know that i would see the [] brackets and think oh, im dealing with an array. HOWERVER, i would then notice the '' quotes and realize i'm actually dealing with an object.
-                ** you may be thinking to yourself, wait quotes mean string. and you are right. is 'school' a string then? maybe i dont know actually. though, i do know that this [] bracket notation will not work without the ''quotes because javascript will think school is a variable and look for it in memory... which it is technically not in memory by itself. its only accessible through the student object
+                    - truthfully, i dont know how i would read this. i do know that i would see the [] brackets and think oh, im dealing with an array. 
+                        HOWERVER, i would then notice the '' quotes and realize i'm actually dealing with an object.
+                ** you may be thinking to yourself, wait quotes mean string. and you are right. is 'school' a string then? maybe i dont know actually. 
+                    though, i do know that this [] bracket notation will not work without the ''quotes because javascript will think school is a variable and look for it in memory... 
+                    which it is technically not in memory by itself. its only accessible through the student object
                 *** lets rememeber to ask for clarity on this in class lol
 
             ** it gets a little more strange when you realize that the student object can also be declared and assigned with '' quotes around the property key/names like this:
