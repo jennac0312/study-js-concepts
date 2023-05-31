@@ -1,4 +1,20 @@
 /*
+__________________________________________________________________________________________________________
+COVERS: 
+    1. VARIABLES
+    2. DECLARATION
+    3. ASSIGNMENT
+    4. DATA TYPES
+        - STRING
+        - NUMBER
+        - BOOLEAN
+        - ARRAY
+        - OBJECT
+        - UNDEFINED
+        - NULL
+        * typeof() operator
+__________________________________________________________________________________________________________
+
 What is Javascript (js)?
     -a programming language
 
@@ -498,8 +514,52 @@ UDNEFINED & NULL
 
 ____________________________________________________________________________________________________________________________________________________________________________________________
 
+WHEN IN DOUBT ABOUT DATA TYPE, there is a handy OPERATOR at your disposal
+
+    typeof
+        - KEYWORD
+        - returns STRING
+        - purpose? to identify data types
+
+        SYNTAX - typeof followed by a space and the data that is being evaluated
+
+        how to use:
+            
+            typeof 77   -> evaluates to NUMBER
+            typeof 'dog'  -> evaluates to STRING
+
+        to see it in action try throwing it inside a console log:
+
+            console.log(typeof 3) -> number
+            console.log(typeof true) -> boolean
+            console.log(typeof 'false') -> string (dont be tricked lol)
 
 
+        can also be used to evaluate variables:
+
+            let today = "wednesday"
+            const independenceYear = 1777
+            let motto
+
+            console.log(typeof today) -> string
+            console.log(typeof independenceYear) -> number
+            console.log(typeof motto) -> undefined
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+******************* SUMMARY ****************************
+
+
+'' "" `` STRING
+NUMBER .. self explanatory
+true / false BOOLEAN
+[] ARRAY
+{} OBJECT
+
+
+
+typeof when in DOUBT
+
+*********************************************************
 
 
 

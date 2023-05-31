@@ -97,4 +97,7 @@
 22. true or false: a variable can be declared multiple times?
 
 
+23. what operator allows us to verify data types?
+
 */
+

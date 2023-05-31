@@ -135,10 +135,15 @@
 20. true or false: const variables can be reassigned?
     - false
 
+
 21. true of false: let variables can be reassigned?
     - true
+
 
 22. true or false: a variable can be declared multiple times?
     - false... i didn't explicitly say this in the notes (sorry)
 
+
+23. what operator allows us to verify data types?
+    -typeof
 */
