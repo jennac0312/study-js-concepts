@@ -61,7 +61,8 @@ A FEW THINGS TO KNOW ABOUT JS
                 - first letter of every word is capital (besides the first word)
                 - example : thisIsMyExample
             3. get ready to learn some keywords
-            4. get used to messing up!!! seriously js is confusing in the beginning. be easy on yourselves. learn through your mistakes
+            4. get used to messing up!!! seriously js is confusing in the beginning. be easy on yourselves. 
+                learn through your mistakes
 
 
 
@@ -72,12 +73,12 @@ understand that javascript is a high level language. this means that it is writt
     the computer doesn't actually underatand javascript. 
     fortunately, behind the scenes, js is broken down into binary code that the computer understands. 
     (don't worry too much about this, but if you do care to know... go listen to leon noel lol)
-____________________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________
 
 JAVASCRIPT ES6
     -javascript ECMAScript 2015. this is newest version of js and these are the rules we follow
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________
 
 VARIABLES
 
@@ -99,11 +100,12 @@ VARIABLES
             - helps readability
         - variable names should be written in camelCase (remember i said get used to it!)
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________
 
 DECLARATION/ INITIATION (let, const)
 
-    - the term for when we "create" a variable. in code terms we say "declare a variable" or "initiate a variable" (i say the first way usually)
+    - the term for when we "create" a variable. in code terms we say "declare a variable" 
+        or "initiate a variable" (i say the first way usually)
 
 
     SYNTAX for declaration 
@@ -126,9 +128,9 @@ DECLARATION/ INITIATION (let, const)
 
         ... but wait, we did not give it a value yet. we only DECLARED it
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________
 
-ASSIGNMENT (=)
+ASSIGNMENT (=) aka "initialization"
 
     - ASSIGNMENT OPERATOR IS =
     - when you see = THINK assignment!!! always!!!
@@ -146,8 +148,8 @@ ASSIGNMENT (=)
         HOWEVER, they can be executed together in one line like:
             let age = 25
 
-            ** essentially, we told the computer "hey, remember this word (aka variable) called 'age'. and also, remember it's value is 25"
-                and the computer will always rememeber it!!
+            ** essentially, we told the computer "hey, remember this word (aka variable) called 'age'. 
+                and also, remember it's value is 25" and the computer will always rememeber it!!
     
 
 
@@ -158,26 +160,28 @@ ASSIGNMENT (=)
 
     when you see = think ASSIGNMENT ALWAYS!!!!
 *************************************************************************
-____________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________
 
 DATA TYPES
 
-    - we know how to create variables now with declaration and assignment. but, what values can we assign to these variables?
+    - we know how to create variables now with declaration and assignment. 
+        but, what values can we assign to these variables?
 
     - thats where DATA TYPES come in
-    - we understand that the value stored in variables is considered DATA, right? so now lets break down the different kinds of data
+    - we understand that the value stored in variables is considered DATA, right? 
+        so now lets break down the different kinds of data
 
 
     -COMMON DATA TYPES
-    1. STRING ( ''(single quotes), "" (double quotes), `` (backticks) )
-    2. NUMBER (... self explanatory. literally a number)
-    3. BOOLEAN (true, false)
-    4. ARRAY ( [] )
-    5. OBJECT ( {} )
-    6. UNDEFINED
-    7. NULL
+            1. STRING ( ''(single quotes), "" (double quotes), `` (backticks) )
+            2. NUMBER (... self explanatory. literally a number)
+            3. BOOLEAN (true, false)
+            4. ARRAY ( [] )
+            5. OBJECT ( {} )
+            6. UNDEFINED
+            7. NULL
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________
 
 STRING ( '', "", `` )
 
@@ -210,13 +214,16 @@ STRING ( '', "", `` )
                 - example:
                     let mcdreamyQuote = "it's a beautiful day to save lives"
 
-                    * notice double quotes on outside to let computer know, "hey this mcdreamyQuote variable i'm storing is a STRING data type"
-                    * quotes mark the beginning and end of a string, therefore if the quote INSIDE matches the STARTING quote, it'll cut your string variable short
+                    * notice double quotes on outside to let computer know: 
+                        "hey this mcdreamyQuote variable i'm storing is a STRING data type"
+                    * quotes mark the beginning and end of a string, therefore if the quote INSIDE matches the STARTING quote,
+                        it'll cut your string variable short
                     
                     don't take my word for it, test it out yourself
                         - open a new js file called testing.js or something. 
                             paste statement that declares and assigns mcdreamyQuote into the new file. 
-                        ** notice (unless you changed your settings, that the value(what's written after the assignment operator (=)) is in pinkish letters. strings are in pink in vs code)
+                        ** notice (unless you changed your settings, that the value(what's written after the assignment operator (=)) 
+                                is in pinkish letters. strings are in pink in vs code)
                             - now, erase the double quote at the beginning and end of the string. replace both with a sinlge quote '.
                                 - do you notice the red squiggly line? 
                                     thankfully js is like microsoft word and google docs and doesn't let you get away with  errors.
@@ -261,7 +268,7 @@ STRING ( '', "", `` )
 
                     **** dont take my word for it, try it out yourself.
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________
 
 NUMBERS 
 
@@ -282,7 +289,7 @@ NUMBERS
     
     there is not much to say about numbers until we get into different operators
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________
 
 BOOLEAN (true, false)
     - data type
@@ -313,7 +320,7 @@ true or false value
 handy for conditionals
 *****************************************
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ARRAY []
     * arrays are toasters (if you get it LOL if not watch Leon Noel)
@@ -443,7 +450,7 @@ ARRAY []
     special because of many many built in properties and methods to manipulate data
 *******************************************************************
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________
 
 OBJECTS {}
     - mother of all data types (kind of a joke kind of not, you'll see later)
@@ -518,7 +525,7 @@ properties consist of key/name:value pairs
 each property is separated by a , comma
 accessed through DOT and BRACKET notation
 *************************************************************
-____________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 UDNEFINED & NULL
     - DATA TYPES
@@ -547,7 +554,7 @@ UDNEFINED & NULL
         
         ** this will cause an error in the terminal. is that what null is? i dont know
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
 
 WHEN IN DOUBT ABOUT DATA TYPE, there is a handy OPERATOR at your disposal
 
@@ -580,7 +587,8 @@ WHEN IN DOUBT ABOUT DATA TYPE, there is a handy OPERATOR at your disposal
             console.log(typeof independenceYear) -> number
             console.log(typeof motto) -> undefined
 
-____________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________
+
 ******************* SUMMARY ****************************
 
 
