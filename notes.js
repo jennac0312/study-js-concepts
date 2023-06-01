@@ -1,6 +1,6 @@
 /*
 
-UPDATE: uhhhhhh i just realized that these ntoes feel overwhelming. i didn't want them to but uhh lol
+UPDATE: uhhhhhh i just realized that these notes feel overwhelming. i didn't want them to but uhh lol
         these concepts are easier discussed than read tbh. so let's actually have a coversation about it
         (lets have a group study session)
 __________________________________________________________________________________________________________
