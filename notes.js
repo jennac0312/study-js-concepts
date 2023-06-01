@@ -16,7 +16,7 @@ COVERS:
         - OBJECT
         - UNDEFINED
         - NULL
-        * typeof() operator
+        * typeof operator
 __________________________________________________________________________________________________________
 
 What is Javascript (js)?
