@@ -124,7 +124,10 @@
         b. console.log(randomList[3])
             - true
         c. console.log(randomList[7])
-            - undefined (tricky so let me explain briefly. there are only 7 items total in this array. that is why the length is 7. and therefore the last item has an index of 6. the 7th index doesn't really exist... except it does, sort of. under the hood, since this is an array our computer is holding an extra empty "bucket" in memory after the last item 'la la la'. why? because arrays are always accepting more data. so this 7th index does technically exist. btu it does not have a value yet(or ever). 
+            - undefined (tricky so let me explain briefly. there are only 7 items total in this array. that is why the length is 7. 
+            and therefore the last item has an index of 6. the 7th index doesn't really exist... except it does, sort of. under the hood, 
+            since this is an array our computer is holding an extra empty "bucket" in memory after the last item 'la la la'. 
+            why? because arrays are always accepting more data. so this 7th index does technically exist. btu it does not have a value yet(or ever). 
             BILL GATES TOASTER!!! https://www.youtube.com/watch?v=YUQUGtUbwMY&list=PLBf-QcbaigsJysJ-KFZvLGJvvW-3sfk1S&index=17 1:38:20  )
         
 
