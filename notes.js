@@ -46,7 +46,7 @@ SOME IMPORTANT TERMS TO KNOW
 
 A FEW THINGS TO KNOW ABOUT JS
 
-    Asynchronus Language
+    Synchronus Language
         - what does that mean?
         - it means JS runs from top to bottom, line by line. One step at a time. (don't overthink this)
 
